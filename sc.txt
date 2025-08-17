@@ -1,0 +1,60 @@
+
+```
+churn-prediction/
+├── .github/
+│   └── workflows/
+│       ├── ci.yml
+│       └── deploy.yml
+├── data/
+│   ├── raw/
+│   ├── processed/
+│   └── external/
+├── src/
+│   ├── data/
+│   │   ├── __init__.py
+│   │   ├── data_loader.py
+│   │   ├── preprocessing.py
+│   │   └── feature_engineering.py
+│   ├── models/
+│   │   ├── __init__.py
+│   │   ├── base_model.py
+│   │   ├── ensemble.py
+│   │   └── train.py
+│   ├── api/
+│   │   ├── __init__.py
+│   │   ├── main.py
+│   │   ├── schemas.py
+│   │   └── endpoints/
+│   ├── monitoring/
+│   │   ├── __init__.py
+│   │   ├── drift_detector.py
+│   │   └── performance_monitor.py
+│   └── utils/
+│       ├── __init__.py
+│       ├── config.py
+│       └── logging.py
+├── notebooks/
+│   ├── 01_exploratory_analysis.ipynb
+│   ├── 02_feature_engineering.ipynb
+│   └── 03_model_experiments.ipynb
+├── tests/
+│   ├── unit/
+│   ├── integration/
+│   └── conftest.py
+├── configs/
+│   ├── model_config.yaml
+│   └── api_config.yaml
+├── scripts/
+│   ├── train_model.py
+│   ├── retrain_pipeline.py
+│   └── deploy.py
+├── docker/
+│   ├── Dockerfile.api
+│   ├── Dockerfile.training
+│   └── docker-compose.yml
+├── .pre-commit-config.yaml
+├── pyproject.toml
+├── Makefile
+├── README.md
+└── requirements.txt
+```

@@ -1,0 +1,1 @@
+{'logistic_regression': np.float64(0.681875), 'random_forest': np.float64(0.7678125), 'gradient_boosting': np.float64(0.744375), 'xgboost': np.float64(0.735625)}

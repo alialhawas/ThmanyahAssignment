@@ -1,9 +1,5 @@
 # Customer Churn Prediction System
 
-[![CI/CD](https://github.com/yourname/churn-prediction/workflows/CI/CD%20Pipeline/badge.svg)](https://github.com/yourname/churn-prediction/actions)
-[![Code Quality](https://img.shields.io/badge/code%20quality-A-green)](https://github.com/yourname/churn-prediction)
-[![API Status](https://img.shields.io/badge/api-online-green)](https://api.yourcompany.com/health)
-
 A comprehensive machine learning system for predicting customer churn in music streaming services. Built with MLOps best practices, featuring automated training pipelines, real-time serving, and comprehensive monitoring.
 
 ## 🎯 Overview
@@ -276,7 +272,6 @@ if drift_report['overall_drift']:
 ## 📚 Documentation
 
 - **[Technical Report](TECHNICAL_REPORT.md)**: Detailed technical documentation
-- **[API Documentation](http://localhost:8000/docs)**: Interactive API docs (when running)
 
 
 ## 🤝 Contributing
@@ -296,15 +291,6 @@ if drift_report['overall_drift']:
 - Update documentation for API changes
 - Use conventional commit messages
 - Ensure backward compatibility
-
-
-## 🏆 Acknowledgments
-
-- **Data Science Team**: Model development and validation
-- **Engineering Team**: Infrastructure and deployment
-- **Product Team**: Business requirements and validation
-- **Open Source Community**: Amazing libraries and tools
-
 ---
 
 ## 🎯 What's Next?
